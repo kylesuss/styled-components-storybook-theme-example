@@ -5,6 +5,7 @@ import { ThemeProvider, ThemeContext } from 'styled-components';
 
 const Theme = ({ children }) => {
   const themeContext = useContext(ThemeContext);
+  // The theme context is available here.
   console.log(themeContext);
   return children;
 };
